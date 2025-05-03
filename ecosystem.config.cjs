@@ -3,8 +3,7 @@ module.exports = {
     {
       name: "nuxt-example",
       port: "3000",
-      exec_mode: "cluster",
-      instances: "max",
+      exec_mode: "fork",
       script: "./.output/server/index.mjs",
     },
   ],
